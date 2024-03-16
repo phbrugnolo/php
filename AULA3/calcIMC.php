@@ -10,8 +10,6 @@
 
 
     <?php
-
- 
         $peso = 70; 
         $altura = 170; 
         
