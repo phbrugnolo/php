@@ -17,7 +17,7 @@
 
         if ($lado1 > 0 and $lado2 > 0) {
             echo "<h3>A area do retangulo é " . $lado1 * $lado2;
-            echo "<br><h3>E o seu perimetro é de " . $lado1 + $lado2;
+            echo "<br><h3>E o seu perimetro é de " . $lado1*2 + $lado2*2;
         } else {
             echo "<h3>Voce digitou um valor inválido";
         }
