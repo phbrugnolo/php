@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple-v1.css" />
+</head>
+
+<body>
+    <header>
+        <h2>Cadastro de Cliente</h2>
+    </header>
+    <main>
+        <form action="" method="get">
+            <table>
+                <tr>
+                    <td>Nome: <input type="text" name="nome" required /></td>
+                </tr>
+                <tr>
+                    <td>Data: <input type="date" name="data" required /></td>
+                </tr>
+                <tr>
+                    <td>Endereço: <input type="textarea" name="endereco" required /></td>
+                </tr>
+                <tr>
+                    <td>Sexo: <br>
+                        <input type="radio" name="masculino" value="HTML">
+                        <label>Masculino</label>
+                        <input type="radio" name="feminino" value="CSS">
+                        <label>Feminino</label>
+                        <input type="radio" name="naoinformar" value="JavaScript">
+                        <label>Nao Informar</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Selecione um Veículo: <br>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Carro" />
+                        <label for="vehicle1">Carro</label>
+
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Moto" />
+                        <label for="vehicle2">Moto</label>
+
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Bike" />
+                        <label for="vehicle3">Bicicleta</label>
+
+                        <input type="checkbox" id="vehicle4" name="vehicle4" value="Nenhum" />
+                        <label for="vehicle4">Nenhum</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Senha: <input type="password" name="senha" required /></td>
+                </tr>
+                <tr>
+                    <td>Confirmar Senha: <input type="password" name="confirmaSenha" required /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar" required />
+                        <input type="reset" value="Limpar" required />
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+    </main>
+</body>
+
+</html>
